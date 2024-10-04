@@ -24,7 +24,6 @@ def print_banner(console) -> None:
     panel = Panel(
         Align(
             Text(banner, justify="center", style="blue"),
-            align="center",
         ),
         width=width,
         height=height,
