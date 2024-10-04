@@ -40,6 +40,6 @@ _|"""""|_|"""""|_| """"|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|
         ),
         width=width,
         height=height,
-        subtitle="by dharanisaya (https://keyobell.com)",
+        subtitle="by dharanisaya (https://auto.pwnspot.com)",
     )
     console.print(panel)
