@@ -873,7 +873,7 @@ def get_terminal_width() -> int:
 
 def check_version(cur_version: str, log) -> None:
     try:
-        data = get("https://pypi.org/pypi/keyobell/json").json()
+        data = get("https://pypi.org/pypi/autopwn-suite/json").json()
     except Exception as e:
         log.logger("error", "An error occured while checking keyobell version.")
         log.logger("error", e)
