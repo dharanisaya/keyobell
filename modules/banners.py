@@ -7,7 +7,7 @@ from modules.utils import get_terminal_width
 
 def print_banner(console) -> None:
     width = get_terminal_width()
-    height = 8
+    height = 12
     banner = """\
  
  _                        _            _  _ 
