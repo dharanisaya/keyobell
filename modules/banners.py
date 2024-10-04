@@ -7,7 +7,7 @@ from modules.utils import get_terminal_width
 
 def print_banner(console) -> None:
     width = get_terminal_width()
-    height = 12
+    height = 10
     banner = """\
 
     __                        __           __ __
@@ -24,6 +24,8 @@ def print_banner(console) -> None:
     panel = Panel(
         Align(
             Text(banner, justify="center", style="blue"),
+            vertical="middle",
+            align="center",
         ),
         width=width,
         height=height,
